@@ -1,0 +1,21 @@
+.container {
+	padding: 10px;
+	background: #e0e0e0;
+}
+
+.container a {
+	display: inline-block;
+	margin: 4px;
+	padding: 4px 6px;
+	border-radius: 4px;
+	color: #fff;
+	background: #0070f3;
+}
+
+.container a:hover {
+	background: #0062d1;
+}
+
+.container a.currentLink {
+	background: #0a305c;
+}

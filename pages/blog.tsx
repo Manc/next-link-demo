@@ -1,12 +1,12 @@
 import Layout from '../components/Layout';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function Blog() {
 	return (
-		<Layout title="Home">
+		<Layout title="Blog">
 			<div className={styles.main}>
 				<h1 className={styles.title}>
-					<a href="https://nextjs.org">Next.js</a> Demo
+					Blog
 				</h1>
 			</div>
 		</Layout>
